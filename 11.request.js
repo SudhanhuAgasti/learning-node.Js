@@ -10,7 +10,7 @@ http.createServer((req,res)=>{
     else if(req.url=="/login"){
         res.write("<h1>LOGIN page</h1>")
     }else{
-        res.write("<h1>other page</h1>")
+        res.write("<h1>Other page</h1>")
     }
 
     

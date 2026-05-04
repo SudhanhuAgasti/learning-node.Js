@@ -1,8 +1,7 @@
 const http = require("http");
 const fs =require("fs");
 
-const queryString= require("querystring")
-
+const queryString= require("querystring") ;
 
 
 http.createServer((req,res)=>{
